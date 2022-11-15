@@ -4,10 +4,12 @@
 
 Đây là dạng bài tập cơ bản (chắc là gần nhất) mà một người học VueJs, AngularJs hay ReactJs sẽ phải trải qua
 
-![TodosApp](./assets/todoApp/todo-app.png)
+![TodosApp](./assets/todoApp/1.png)
 
 ## Mô tả:
 
+- Sử dụng `layout` của bài trước
+- Click vào menu `Todo App`
 - Khởi đầu với 3 cột trống
 - Sau khi bấm vào nút `Thêm mới` ở dưới cột 1 thì sẽ xuất hiện một `Item todo` với ô input cho phép nhập tên của `Nhiệm vụ`
 - Khi xuất hiện Item để nhập trên, nếu chưa bấm `Lưu` thì `disabled` nút `Thêm mới` đi, không cho click nữa
