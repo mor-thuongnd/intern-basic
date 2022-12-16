@@ -26,6 +26,7 @@ Link figma:
 - Validate nhìn trên ảnh: required hoặc max-length, với inputText thì mặc định max-length là 255 kí tự
 - Khởi tạo các component như Loading, Toast - `không dùng thư viện`
 - Form nào được Approve thì mới có thể đăng nhập bằng thông tin đã đăng ký
+- Cấu trúc thư mục sẽ tạo ra một thư mục `services` để viết các hàm thao tác với `firebase database`, từ actions store sẽ gọi tới đó (giống như gọi API)
 - Nếu đã đăng nhập thì mới đc phép truy cập vào trang chủ và các trang xem form, không thể vào trang login
 - Ngược lại nếu chưa đăng nhập thì mới vào được trang Login và không thể vào các trang còn lại
 - Đơn nào có trạng thái `pending` thì hiển thị đầy đủ cả 2 button
